@@ -366,31 +366,6 @@ body {
     opacity: 0.9;
 }
 
-.social-icons {
-    display: flex;
-    gap: 15px;
-    justify-content: flex-start;
-}
-
-.social-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: var(--color-primary-light);
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.social-icon:hover {
-    background-color: var(--color-accent-light);
-    color: white;
-    transform: translateY(-3px);
-}
-
 .footer-bottom {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 20px 0;
